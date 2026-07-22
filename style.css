@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(./images/img4.png);
+    background-size: 130vh 90vb;
+    background-repeat: no-repeat;
+    background-position: center 130%;
+    background-attachment: fixed;
+   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    height: 80px;
+    background-color: #1565F9;
+    padding: 0 20px;
+    text-align: center;
+
+
+
+
+}
+
+.sec1 img {
+    width: 130px;
+    height: 90px;
+    transform: translateX(-2rem);
+
+}
+
+.sec2 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    transform: translateY(35%);
+    font-family: cursive;
+}
+
+.sec2 a {
+
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.sec2 a:hover {
+    background: white;
+    color: #1565F9;
+    cursor: pointer;
+}
+
+.sec3 a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    transform: translateY(35%);
+    display: inline-block;
+}
+
+.sec3 a:hover {
+    background: white;
+    color: #1565F9;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: center(10%);
+    align-items: center;
+    height: 300px;
+    transform: translateY(80px);
+    margin-top: 50px;
+   
+}
+
+.machine img {
+    width: 35vw;
+    height: 60vh;
+    transform: translateX(50px) scale(115%);
+    animation: infinite;
+    transform-origin: center;
+    animation: yu  0.4s  infinite ;
+   
+      
+}
+.left{
+    width: 50%;
+    padding: 20vh;
+    align-self: center;
+    transform: scale(115%);
+    font-family: cursive;
+    font-weight: 300;
+}
+.right{
+  
+    align-self: center;
+}
+#l{
+    font-size: 3rem;
+    color: rgb(74, 70, 70);
+
+}
+#ll{
+    font-size: 3rem; 
+    margin: 10px 0px 5px 0px;
+    color: #1565F9;
+}
+#lll{
+    font-size: 1.2rem;
+    padding: 10px 0 30px;
+    color: rgb(74, 70, 70);
+}
+.book a{
+    display: inline-block;
+    background-color: #1565F9;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.book :hover{
+    scale: 110%;
+}
+@keyframes yu{
+    0%{
+        transform: rotate(-1deg);
+    }
+    50%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(-1deg);
+    }
+}
+.bucket{
+    transform: scale(20%) translateY(1800px) translateX(-1500px);
+    position: absolute;
+    width: 100px;      
+    top: -500px;         
+    right: 430px;      
+    z-index: 10;
+}
+ul li:hover{
+    background: white;
+    color: #1565F9;
+    cursor: pointer;
+    
+}
+
